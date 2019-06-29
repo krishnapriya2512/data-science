@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM gitpod/workspace-full:latest
 
 #  $ docker build . -t continuumio/anaconda:latest -t continuumio/anaconda:5.3.0 -t continuumio/anaconda2:latest -t continuumio/anaconda2:5.3.0
 #  $ docker run --rm -it continuumio/anaconda2:latest /bin/bash
